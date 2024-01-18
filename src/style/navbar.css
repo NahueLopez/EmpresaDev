@@ -1,0 +1,17 @@
+.nav-link {
+    /* Estilos para cuando no está activo ni pasa el mouse */
+    color: black; /* color de texto predeterminado */
+  }
+  
+  .nav-link:hover {
+    /* Estilos para cuando se pasa el mouse */
+    text-decoration: underline;
+    color: #52bed7; /* color azul cuando se pasa el mouse */
+  }
+  
+  .active {
+    /* Estilos para cuando es la ruta activa */
+    font-weight: bold;
+    color: #52bed7; /* color azul para la ruta activa */
+  }
+  
