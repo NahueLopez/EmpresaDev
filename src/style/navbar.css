@@ -1,17 +1,28 @@
 .nav-link {
-    /* Estilos para cuando no está activo ni pasa el mouse */
-    color: black; /* color de texto predeterminado */
+    color: black;
   }
   
   .nav-link:hover {
-    /* Estilos para cuando se pasa el mouse */
     text-decoration: underline;
-    color: #52bed7; /* color azul cuando se pasa el mouse */
+    color: #52bed7; 
   }
   
   .active {
-    /* Estilos para cuando es la ruta activa */
     font-weight: bold;
-    color: #52bed7; /* color azul para la ruta activa */
+    color: #52bed7; 
   }
   
+
+  .footer{
+    color: white; 
+  }
+  
+  .footer:hover {
+    text-decoration: underline;
+    color: #52bed7; 
+  }
+  
+  .active {
+    font-weight: bold;
+    color: #52bed7;
+  }

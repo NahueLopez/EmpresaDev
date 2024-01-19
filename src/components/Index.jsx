@@ -14,9 +14,9 @@ function Index() {
                   <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
                     Transformá la Esencia de tu Empresa
                   </h1>
-                  <div className='flex justify-center items-center'>
+                  <div className='flex justify-center flex-col lg:flex-row items-center'>
                     <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
-                      de una manera
+                      de manera
                     </p>
                     <Typed
                       className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
@@ -27,7 +27,7 @@ function Index() {
                     />
                   </div>
                   <p className='md:text-2xl text-xl font-bold text-gray-500'>Conéctate con nosotros y recibirás el asesoramiento más acertado. Estamos aquí para mejorar tu experiencia.</p>
-                  <Link to="/contacto" className='bg-[#52bed7] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-[#377d8c] hover:text-white hover:shadow-xl'>Contactanos</Link>
+                  <Link to="/EmpresaDev/contacto" className='bg-[#52bed7] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-[#377d8c] hover:text-white hover:shadow-xl'>Contactanos</Link>
                 </div>
               </div>
             </main>

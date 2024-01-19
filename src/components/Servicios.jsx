@@ -8,7 +8,8 @@ import servicios from "../assets/servicios.png"
 
 function Servicios() {
   return (
-    <section className=" mx-auto pt-20 lg:pt-40 h-screen bg-white ">
+    <>
+    <section className=" mx-auto pt-20 lg:pt-40 bg-white mb-10 ">
       <div className="text-center py-auto mx-auto uppercase md:text-3xl text-xl font-bold text-[#52bed7]">
         <h1>Nuestros Servicios</h1>
       </div>
@@ -20,12 +21,14 @@ function Servicios() {
           <img src={servicios} className="rounded-xl mx-auto mt-5 w-full md:w-auto" />
         </div>
       </div>
-      <div className="bg-[#52bed7]">
-        <div className="py-5 md:text-2xl text-xl text-center justify-end mt-5 text-white">
-          Nuestros servicios:
-        </div>
-
-        <nav className="flex md:flex-row flex-col gap-5 mx-auto justify-center items-center bg-[#52bed7]" >
+    </section>
+    
+    <section>
+    <div className="py-5 md:text-2xl text-xl text-center justify-end mt-5 text-white bg-[#52bed7]">
+            Nuestros servicios:
+        </div> 
+    <nav className="flex md:flex-row flex-col gap-5 mx-auto justify-center items-center bg-[#52bed7]" >
+      
           <div>
             <p className="text-center md:text-1xl text-xl text-white">Diseño</p>
             <img src={v1}/> 
@@ -47,10 +50,10 @@ function Servicios() {
             <img src={v5}/>
           </div>
         </nav>
-      </div>
-      
     </section>
+    
 
+        </>
   )
 }
 

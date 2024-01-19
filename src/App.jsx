@@ -5,6 +5,7 @@
   import Servicios from './components/Servicios.jsx'
   import SobreNosotros from './components/SobreNosotros.jsx'
   import Contacto from './components/Contacto.jsx'
+import Footer from './components/Footer.jsx'
 
 
   function App() {
@@ -14,12 +15,12 @@
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route index element={<Index />}/>
-          <Route path='servicios' element={<Servicios />} />
-          <Route path='sobrenosotros' element={<SobreNosotros />} />
-          <Route path='contacto' element={<Contacto />} />
-
+          <Route path='/EmpresaDev/' element={<Index />}/>
+          <Route path='/EmpresaDev/servicios' element={<Servicios />} />
+          <Route path='/EmpresaDev/sobrenosotros' element={<SobreNosotros />} />
+          <Route path='/EmpresaDev/contacto' element={<Contacto />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>    
     )
   }

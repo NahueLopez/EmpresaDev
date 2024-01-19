@@ -3,11 +3,11 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Contacto() {
   return (
-    <section className="mx-auto pt-20 lg:pt-40 h-screen bg-white">
-      <div className="container mx-auto flex flex-col md:flex-row text-center items-center justify-between order-last md:order-first">
-        <div className="container order-first md:order-last flex flex-col lg:flex-row items-center">
-          <div className="flex flex-col">
-            <div className="text-center md:text-2xl text-xl font-bold w-full px-4 md:px-40 text-[#52bed7] mb-5">
+    <section className="mx-auto pt-20 lg:pt-40 bg-white mt-20 md:mt-0 mb-20">
+    <div className="container mx-auto flex flex-col md:flex-row text-center items-center justify-between">
+      <div className="container flex flex-col lg:flex-row items-center">
+        <div className="flex flex-col">
+          <div className="text-center md:text-2xl text-xl font-bold w-full px-4 md:px-40 text-[#52bed7] mb-5">
               Completa el siguiente formulario y nos pondremos en contacto contigo lo más pronto posible:
             </div>
             <div className="w-full lg:max-w-lg mx-auto mt-10 lg:mt-5">
@@ -60,14 +60,13 @@ function Contacto() {
             </form>
             </div>
           </div>
-          <div className="flex flex-col mt-5">
-            <img src={contacto} className="rounded-xl mx-auto md:w-[800px] md:h-[700px]" alt="Equipo" />
+          <div className="flex flex-col">
+            <img src={contacto} className="rounded-xl mx-auto lg:w-[800px] lg:h-[700px] w-[300px]" alt="Equipo" />
             <h1 className="md:text-1xl text-xl font-bold w-full px-4 md:px-40">Nuestras redes sociales</h1>
-            <div className="flex flex-row gap-2">
-            <FaInstagram className="hover:cursor-pointer transition-transform transform hover:scale-110" style={{ fontSize: '24px', color: '#52bed7' }} />
-            <FaLinkedin className="hover:cursor-pointer transition-transform transform hover:scale-110" style={{ fontSize: '24px', color: '#52bed7' }} />
+            <div className="flex flex-row gap-2 justify-center pb-5 0">
+              <FaInstagram className="hover:cursor-pointer transition-transform transform hover:scale-110" style={{ fontSize: '24px', color: '#52bed7' }} />
+              <FaLinkedin className="hover:cursor-pointer transition-transform transform hover:scale-110" style={{ fontSize: '24px', color: '#52bed7' }} />
             </div>
-
           </div>
         </div>
       </div>
